@@ -22,11 +22,14 @@ public interface MahasiswaDao {
 
     @Delete
     public void deleteUsers(Mahasiswa users);
+    void deleteAll(Mahasiswa mahasiswa);
 
     @Update
     public void update(Mahasiswa mahasiswa);
+    void updateAll(Mahasiswa mahasiswa);
 
     @Delete
-    public void deleteAll(Mahasiswa user1, Mahasiswa user2);
+    public void deleteAll(Mahasiswa  user1, Mahasiswa user2);
 
+    void updateAll(Mahasiswa mahasiswa);
 }

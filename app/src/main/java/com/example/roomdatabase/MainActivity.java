@@ -12,6 +12,8 @@ import com.example.roomdatabase.activity.DetailActivity;
 public class MainActivity extends AppCompatActivity {
 
     Button btRoom;
+    Button btn_edit;
+    Button btn_delete;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
